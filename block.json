@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "kd-flow/section-block",
+	"version": "0.1.0",
+	"title": "Section Block",
+	"category": "design",
+	"icon": "align-center",
+	"description": "Flow section block with style controls and flow for inner content.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "section-block",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
