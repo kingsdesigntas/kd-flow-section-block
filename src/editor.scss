@@ -1,16 +1,27 @@
-[data-type="kd-flow/section-block"]:first-child {
-    margin-top: -4rem
+.is-root-container
+	> div[data-type="kd-flow/section-block"][data-title="Section Block"]:first-child {
+	margin-top: -4rem;
 }
 
- div[data-type="kd-flow/section-block"].alignfull {
-     max-width: var(--width-full);
- }
+// div[data-type="kd-flow/section-block"][data-title="Section Block"] {
+// 	max-width: var(--width-full);
+// }
 
- div[data-type="kd-flow/section-block"].alignfull .block-editor-block-list__layout >*+* {
-    margin-top: var(--flow, 2rem);
- }
+div[data-type="kd-flow/section-block"][data-title="Section Block"]
+	.block-editor-block-list__layout
+	> *
+	+ * {
+	margin-top: var(--flow, 2rem);
+}
 
- div[data-type="kd-flow/section-block"].alignfull > .block-editor-inner-blocks {
-     width: 100%;
-     max-width: 100%;
- }
+div[data-type="kd-flow/section-block"][data-title="Section Block"]
+	> .block-editor-inner-blocks {
+	width: 100%;
+	max-width: 100%;
+}
+
+div[data-type="kd-flow/section-block"][data-title="Section Block"]
+	> .block-editor-inner-blocks
+	> .block-editor-block-list__layout {
+	width: 100%;
+}

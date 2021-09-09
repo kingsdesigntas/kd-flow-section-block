@@ -1,5 +1,78 @@
 .wp-block-kd-flow-section-block {
-	padding: 6rem 0;
 	background: var(--primary-800);
 	color: white;
+}
+
+.wp-block-kd-flow-section-block > * {
+	width: 100%;
+}
+
+.kdsection-y-pad-none {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.kdsection-y-pad-xs {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.kdsection-y-pad-sm {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.kdsection-y-pad-md {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.kdsection-y-pad-lg {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.kdsection-y-pad-xl {
+	padding-top: 4.5rem;
+	padding-bottom: 4.5rem;
+}
+
+.kdsection-y-pad-xxl {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}
+
+.kdsection-x-pad-none {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.kdsection-x-pad-xs {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+.kdsection-x-pad-sm {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.kdsection-x-pad-md {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.kdsection-x-pad-lg {
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.kdsection-x-pad-xl {
+	padding-left: 4.5rem;
+	padding-right: 4.5rem;
+}
+
+.kdsection-x-pad-xxl {
+	padding-left: 6rem;
+	padding-right: 6rem;
 }
